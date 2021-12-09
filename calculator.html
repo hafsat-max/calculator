@@ -81,28 +81,41 @@
             }
 
             function sinclicked(value) {
-                form.textview.value = Math.sin(value);
+                let newValue = 180/value;
+                newValue = (22/7)/newValue;
+
+                form.textview.value = Math.sin(newValue).toFixed(3);
             }
 
             function cosclicked(value) {
-                form.textview.value = Math.cos(value);
+                let newValue = 180/value;
+                newValue = (22/7)/newValue;
+                form.textview.value = Math.cos(newValue).toFixed(4);
             }
 
             function tanclicked(value) {
-                form.textview.value = Math.tan(value);
+                let newValue = 180/value;
+                newValue = (22/7)/newValue;
+                form.textview.value = Math.tan(newValue).toFixed(4);
             }
 
             function sinhclicked(value) {
-                form.textview.value = Math.sinh(value);
+                let newValue = 180/value;
+                newValue = (22/7)/newValue;
+                form.textview.value = Math.sinh(newValue).toFixed(4);
             }
 
 
             function coshclicked(value) {
-                form.textview.value = Math.cosh(value);
+                let newValue = 180/value;
+                newValue = (22/7)/newValue;
+                form.textview.value = Math.cosh(newValue).toFixed(4);
             }
 
             function tanhclicked(value) {
-                form.textview.value = Math.tanh(value);
+                let newValue = 180/value;
+                newValue = ((22/7))/newValue;
+                form.textview.value = Math.tanh(newValue).toFixed(4);
             }
         </script>
 
